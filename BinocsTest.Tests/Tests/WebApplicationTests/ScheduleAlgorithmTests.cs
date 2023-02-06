@@ -183,7 +183,6 @@ namespace BinocsTest.Test.Tests.WebApplicationTests
                 .WithEarliestStartDate(jobToScheduleEarliestStartDate)
                 .WithDueDate(jobToScheduleDueDate);
 
-
             ScheduleWindowFlow.NavigateToScheduleWindow();
             ScheduleWindowFlow.InsertScheduleWindowData(scheduleWindowData);
 
